@@ -1,0 +1,43 @@
+
+
+
+section {
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  section:nth-of-type(even) {
+    background-color: #000000;
+  }
+  
+  .pen{
+    background-image: url(the-pen.svg);
+  }
+  
+  .mighty{
+    background-image: url(is-mightier.svg);
+  }
+  .than{
+  background-image: url(than.svg);
+  }
+  
+  
+  .sword{
+    background-image: url(the-sword.svg);
+  }
+  
+  .end{
+    background-image: url(end.svg);
+    background-color: #00f10a;
+  }
+  
+  footer {  
+    position: fixed;
+      bottom: 30px;
+    left: 0;
+      width: 100%;
+    text-align: center;
+  }
